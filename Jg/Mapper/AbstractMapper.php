@@ -287,8 +287,8 @@ abstract class Jg_Mapper_AbstractMapper implements Jg_Mapper {
    * @param array $data
    * @return Jg_DomainObject
    */
-  public function createObject(array $db_data) {
-    $object_data = $this->_mapDbDataToObjectData($db_data);
+  public function createObject(array $data) {
+    $object_data = $this->_mapDbDataToObjectData($data);
 
     // Here is where derived classes should handle any additional complex mapping.
     // I.e. instantiate other objects which compose the domain object, etc.
