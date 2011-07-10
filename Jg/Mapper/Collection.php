@@ -1,6 +1,6 @@
 <?php
 /**
- * A collection of domain objects for a simple data mapper.
+ * A simple collection class that also works with Zend_Paginator.
  *
  * @author     Jason Grimes <jason@grimesit.com>
  * @link       https://github.com/jasongrimes/zf-simple-datamapper
